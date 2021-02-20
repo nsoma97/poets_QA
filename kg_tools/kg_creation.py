@@ -28,9 +28,9 @@ def triplet_for_id(_id):
     return pd.DataFrame(triplets, columns=['source', 'edge', 'destination'])
 
 
-def get_edge_properties(edge_id):
+def get_properties(_id):
     client = Client()
-    prop = client.get(edge_id, load=True)
+    prop = client.get(_id, load=True)
 
     name, description = '', ''
     aliases = []
@@ -44,7 +44,7 @@ def get_edge_properties(edge_id):
         aliases = [a['value'] for a in prop.attributes['aliases']['hu']]
 
     return {
-        'wikidata_id': edge_id,
+        'wikidata_id': _id,
         'name': name,
         'description': description,
         'aliases': aliases
