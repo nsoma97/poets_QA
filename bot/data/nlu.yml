@@ -1,0 +1,223 @@
+version: "2.0"
+
+nlu:
+- intent: alias
+  examples: |
+    - mi mask álneve?
+    - milyen álnéven alkotott mask?
+    - milyen néven ismert még mask?
+    - milyen néven ismert még mask?
+    - mi mask álneve?
+    - mask milyen neveken írt?
+    - mi mask alkotói neve?
+    - milyen néven ismert még mask?
+    - mik mask álnevei?
+    - mi mask másik neve?
+    - milyen néven ismert mask?
+    - mask más ismert nevei?
+    - mask egyéb nevei?
+    - milyen néven ismert még mask?
+    - hogy nevezik maskt más nevén?
+    - milyen néven ismert még mask?
+    - mask más nevei?
+    - mask egyéb ismert nevei?
+    - milyen nevei vannak még masknek?
+
+- intent: anya
+  examples: |
+    - ki mask anyja?
+    - ki mask édesanyja?
+    - hogy hívják mask édesanyját?
+    - hogy hívták mask édesanyját?
+    - ki volt mask édesanyja?
+    - ki mask anyukája?
+    - mi mask édesanyjának neve?
+    - ki volt mask anyja?
+    - ki az anyja masknak?
+    - hogy hívják mask anyját?
+    - ki az édesanyja masknak?
+    - ki mask édesanyja?
+    - mi mask anyjának neve?
+    - mi mask édesanyjának neve?
+    - ki mask anyukája?
+    - hogy nevezték mask édesanyját?
+    - ki mask apja?
+
+- intent: apa
+  examples: |
+    - ki mask édesapja?
+    - mi mask apjának neve?
+    - hogy hívták mask édesapját?
+    - ki volt mask apja?
+    - hogy hívták mask édesapját?
+    - mi mask édesapjának neve?
+    - mask apjának neve?
+    - hogyan nevezték mask édesapját?
+    - mi mask apjának neve?
+    - hogy hívták mask édesapját?
+    - ki mask apukája?
+
+- intent: beszélt_nyelvek
+  examples: |
+    - milyen nyelveken beszélt mask?
+    - milyen nyelveket ismert mask?
+    - mik mask beszélt nyelvei?
+    - milyen idegen nyelveken beszél mask?
+    - mik a mask által ismert nyelvek?
+    - milyen idegen nyelveken beszélt mask?
+    - mask milyen nyelveken tudott?
+    - mik mask ismert nyelvei?
+    - milyen nyelveken tudott mask?
+
+- intent: díj
+  examples: |
+    - milyen díjakat nyert mask?
+    - milyen elismeréseket szerzett mask?
+    - mik mask által nyert díjak?
+    - mask díjai?
+    - milyen kitüntetést nyert mask?
+    - mask kitüntetései?
+    - milyen kitüntetést nyert mask?
+    - milyen díjjal tüntették ki maskt?
+    - mivel tüntették ki maskt?
+    - mask által nyert díjak?
+    - miket nyert mask?
+    - mask nyert valamilyen díjat?
+    - milyen kitüntetései vannak masknak?
+    - mask díjai?
+    - mask elismerései?
+    - mask által nyert díjak?
+
+- intent: foglalkozás
+  examples: |
+    - mivel fogalkozott mask?
+    - mi mask foglalkozása?
+    - miről ismert mask?
+    - mask hivatása?
+    - mik mask foglalkozásai?
+    - mi mask szakmája?
+    - mivel foglalkozott mask?
+    - miről ismert mask?
+    - mivel foglalkozik mask?
+    - mi mask foglalkozása?
+    - mi a hivatása masknak?
+
+- intent: gyermek
+  examples: |
+    - voltak gyerekei masknak?
+    - ki mask gyereke?
+    - kik mask gyerekei?
+    - kik mask gyermekei?
+    - születtt masknak gyermeke?
+    - született masknak gyereke?
+    - ki volt mask gyermekei?
+
+- intent: halál_oka
+  examples: |
+    - miben halt meg mask?
+    - hogyan halt meg mask?
+    - mi mask halálának oka?
+    - miben hunyt el mask?
+    - mi mask halálának oka?
+    - miért hunyt el mask?
+    - mi mask halálának oka?
+    - mask hogyan hunyt el?
+    - miben lelte halálát mask?
+
+- intent: halálozási_hely
+  examples: |
+    - hol halt meg mask?
+    - mi mask halálozási helye?
+    - hol hunyt el mask?
+    - hol hunyt el mask?
+
+- intent: halálozási_idő
+  examples: |
+    - mikor halt meg mask?
+    - meddig élt mask?
+    - mikor hunyt el mask?
+    - milyen régen halt meg mask?
+    - mikor hunyt el mask?
+    - mi mask halálozási dátuma?
+    - mikor halt meg mask?
+
+- intent: nem
+  examples: |
+    - mi mask neve?
+    - mask neme férfi?
+    - milyen nemű mask?
+
+- intent: nyughely
+  examples: |
+    - hol nyugszik mask?
+    - hol temették el mask?
+    - hol található mask sírja?
+    - hol nyugszik mask?
+    - hol van mask sírja?
+
+- intent: politikai_párt
+  examples: |
+    - milyen pártnak volt a tagja mask?
+    - mask párttagsága?
+    - milyen párt tagja mask?
+    - mask politikai hovatartozása?
+    - mi mask párttagsága?
+    - mask politikai hovatartozása?
+    - mask milyen párt tagja?
+    - milyen párt része  mask?
+
+- intent: születési_hely
+  examples: |
+    - hol született mask?
+    - mi mask születési helye?
+    - hol látott napvilágot mask?
+    - mask születési helye?
+    - melyik városban született mask?
+    - hol született mask?
+    - mi mask születési helye?
+
+- intent: születési_név
+  examples: |
+    - milyen néven született mask?
+    - mask születési neve?
+    - mask milyen néven született?
+    - milyen néven született mask?
+    - mi mask korábbi neve?
+    - mi mask korábban használt neve?
+    - mask születéskori neve?
+
+- intent: tagság
+  examples: |
+    - milyen szervezet tagja volt mask?
+    - minek tagja mask?
+    - milyen intézmény tagja mask?
+    - minek a tagja mask?
+    - milyen szervezetben tavékenykedett mask?
+
+- intent: testvér
+  examples: |
+    - ki volt mask testvére?
+    - voltak masknak testvérei?
+    - mask testvérei?
+    - ki mask testvére?
+    - ki volt  mask testvére?
+
+- intent: vallás
+  examples: |
+    - milyen vallású mask?
+    - milyen egyházhoz tartozott mask?
+    - mask vallása?
+    - milyen felekezethez tartozott mask?
+    - mi vallási hovatartozása masknak?
+    - miben hitt mask?
+
+- intent: állampolgárság
+  examples: |
+    - milyen állampolgárságú mask?
+    - melyik nemzet tagja mask?
+    - melyik nemzet szülötte mask?
+    - mi mask állampolgársága?
+    - milyen állam polgára mask?
+    - milyen állampolgárságú mask?
+    - mely állam szülötte mask?
+    - mask állampolgársága?

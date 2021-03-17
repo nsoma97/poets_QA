@@ -1,0 +1,28 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - or:
+    - intent: foglalkozás
+    - intent: születési_idő
+    - intent: nem
+    - intent: születési_hely
+    - intent: halálozási_idő
+    - intent: állampolgárság
+    - intent: díj
+    - intent: halálozási_hely
+    - intent: alias
+    - intent: beszélt_nyelvek
+    - intent: születési_név
+    - intent: nyughely
+    - intent: vallás
+    - intent: gyermek
+    - intent: tagság
+    - intent: halál_oka
+    - intent: apa
+    - intent: testvér
+    - intent: anya
+    - intent: politikai_párt
+  - action: action_query_graph
