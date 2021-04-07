@@ -1,0 +1,32 @@
+version: "2.0"
+
+intents:
+  - foglalkozás
+  - születési_idő
+  - nem
+  - születési_hely
+  - halálozási_idő
+  - állampolgárság
+  - díj
+  - halálozási_hely
+  - alias
+  - beszélt_nyelvek
+  - születési_név
+  - nyughely
+  - vallás
+  - gyermek
+  - tagság
+  - halál_oka
+  - apa
+  - testvér
+  - anya
+  - politikai_párt
+
+
+actions:
+  - action_query_graph
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

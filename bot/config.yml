@@ -1,0 +1,11 @@
+language: hu
+
+pipeline:
+  - name: SpacyNLP
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+
+policies:
+  - name: RulePolicy
