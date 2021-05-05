@@ -1,0 +1,12 @@
+language: hu
+
+pipeline:
+  - name: HFTransformersNLP
+    model_weights: "bert-base-multilingual-uncased"
+    model_name: "bert"
+  - name: LanguageModelTokenizer
+  - name: LanguageModelFeaturizer
+  - name: DIETClassifier
+
+policies:
+  - name: RulePolicy
